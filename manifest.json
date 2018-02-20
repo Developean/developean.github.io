@@ -1,0 +1,29 @@
+﻿{
+  "short_name": "Developean",
+  "name": "Developean.com",
+  "icons": [
+    {
+      "src": "assets/images/logo-white-1920x512.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/images/logo-white-1920x512.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "assets/images/logo-white-1920x512.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/logo-white-1920x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?launcher=true",
+  "display": "standalone",
+  "theme_color": "#444444"
+}
