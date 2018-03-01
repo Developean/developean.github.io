@@ -1,6 +1,10 @@
 ﻿{
   "short_name": "Developean",
   "name": "Developean.com",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#444444",
+   "background_color": "#2196F3",
   "icons": [
     {
       "src": "assets/images/logo-white-1920x512.png",
@@ -22,9 +26,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#444444",
-   "background_color": "#2196F3"
+  ]
 }
