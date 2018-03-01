@@ -54,16 +54,19 @@
 	})(window,document,'script','dataLayer','GTM-5HBK7F2');</script>
 	<!-- End Google Tag Manager -->
   <script>
+
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/service-worker.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
 }
 
-document.querySelector('#show').addEventListener('click', () => {
-  const iconUrl = document.querySelector('select').selectedOptions[0].value;
-  let imgElement = document.createElement('img');
-  imgElement.src = iconUrl;
-  document.querySelector('#container').appendChild(imgElement);
-});
 </script>
   
 </head>
