@@ -31,23 +31,23 @@ const PRECACHE_URLS = [
   'assets/theme/css/style.css',
   'assets/mobirise/css/mbr-additional.css" type="text/css',
   'assets/mobirise/css/custom.css" type="text/css',
-  'assets/web/assets/jquery/jquery.min.js'
-  'assets/popper/popper.min.js'
-  'assets/tether/tether.min.js'
-  'assets/bootstrap/js/bootstrap.min.js'
-  'assets/smoothscroll/smooth-scroll.js'
-  'assets/ytplayer/jquery.mb.ytplayer.min.js'
-  'assets/vimeoplayer/jquery.mb.vimeo_player.js'
-  'assets/touchswipe/jquery.touch-swipe.min.js'
-  'assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js'
-  'assets/mbr-flip-card/mbr-flip-card.js'
-  'assets/mbr-clients-slider/mbr-clients-slider.js'
-  'assets/viewportchecker/jquery.viewportchecker.js'
-  'assets/mbr-popup-btns/mbr-popup-btns.js'
-  'assets/dropdown/js/script.min.js'
-  'assets/parallax/jarallax.min.js'
-  'assets/theme/js/script.js'
-  'assets/slidervideo/script.js'
+  'assets/web/assets/jquery/jquery.min.js',
+  'assets/popper/popper.min.js',
+  'assets/tether/tether.min.js',
+  'assets/bootstrap/js/bootstrap.min.js',
+  'assets/smoothscroll/smooth-scroll.js',
+  'assets/ytplayer/jquery.mb.ytplayer.min.js',
+  'assets/vimeoplayer/jquery.mb.vimeo_player.js',
+  'assets/touchswipe/jquery.touch-swipe.min.js',
+  'assets/bootstrapcarouselswipe/bootstrap-carousel-swipe.js',
+  'assets/mbr-flip-card/mbr-flip-card.js',
+  'assets/mbr-clients-slider/mbr-clients-slider.js',
+  'assets/viewportchecker/jquery.viewportchecker.js',
+  'assets/mbr-popup-btns/mbr-popup-btns.js',
+  'assets/dropdown/js/script.min.js',
+  'assets/parallax/jarallax.min.js',
+  'assets/theme/js/script.js',
+  'assets/slidervideo/script.js',
   'assets/formoid/formoid.min.js'
 ];
 
