@@ -1,30 +1,30 @@
 ﻿{
   "short_name": "Developean",
   "name": "Developean.com",
-  "start_url": "/?homescreen=1",
-  "display": "standalone",
-  "theme_color": "#444444",
-   "background_color": "#2196F3",
   "icons": [
     {
-      "src": "assets/images/logo-white-1920x512.png",
+      "src": "assets/images/logo_small.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "assets/images/logo-white-1920x512.png",
+      "src": "assets/images/logo.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "assets/images/logo-white-1920x512.png",
+      "src": "assets/images/logo_medium.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "assets/images/logo-white-1920x512.png",
+      "src": "assets/images/logo_large.png",
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
+  ],
+  "start_url": "index.html?launcher=true",
+  "display": "standalone",
+  "theme_color": "#444444",
+   "background_color": "#2196F3"
 }
