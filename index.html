@@ -1288,39 +1288,48 @@ New Technologies.</p></div></div></div></div></div><div class="carousel-item sli
                         Thanks for filling out the form!
                     </div>
             
-                    <form class="mbr-form" action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScDMVy1FCxZH4JJOTcPNWAhWeAMYZ_E78GU3xVJBTC8wZeeQA/formResponse" method="post" target="_self" data-form-title="Contact Form">
+                     <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbz1k2nIU3muC9QuilxsaUh4g6rAUiG3eDKR-Pbjlt9ZM24rrcrZ/exec">
 					
                         <div class="row row-sm-offset">
                             <div class="col-md-4 multi-horizontal" data-for="name">
                                 <div class="form-group">
-								<input type="hidden" name ="authtoken" value="3f588e7fb2fa557589c730c515c3d087">
-								<input type="hidden" name ="scope" id="scope" value="ZohoCreator">
+							
                                     <label class="form-control-label mbr-fonts-style display-7" for="name-form1-2a">Name</label>
-                                    <input type="text" class="form-control" name="entry.404953649" data-form-field="Name" required="" id="name-form1-2a">
+                                    <input type="text" class="form-control" name="name" data-form-field="Name" required="" id="name">
                                 </div>
                             </div>
                             <div class="col-md-4 multi-horizontal" data-for="email">
                                 <div class="form-group">
                                     <label class="form-control-label mbr-fonts-style display-7" for="email-form1-2a">Email</label>
-                                    <input type="email" class="form-control" name="emailAddress" data-form-field="Email" required="" id="email-form1-2a">
+                                    <input type="email" class="form-control" name="email" data-form-field="Email" required="" id="email">
                                 </div>
                             </div>
                             <div class="col-md-4 multi-horizontal" data-for="phone">
                                 <div class="form-group">
                                     <label class="form-control-label mbr-fonts-style display-7" for="phone-form1-2a">Phone</label>
-                                    <input type="tel" class="form-control" name="entry.1445038265" data-form-field="Phone" id="phone-form1-2a">
+                                    <input type="tel" class="form-control" name="contact" data-form-field="Phone" id="contact">
                                 </div>
                             </div>
                         </div>
                         <div class="form-group" data-for="message">
                             <label class="form-control-label mbr-fonts-style display-7" for="message-form1-2a">Message</label>
-                            <textarea type="text" class="form-control" name="entry.1352830684" rows="7" data-form-field="Message" id="message-form1-2a"></textarea>
+                            <textarea type="text" class="form-control" name="message" rows="7" data-form-field="Message" id="message"></textarea>
                         </div>
             
                         <span class="input-group-btn">
-                            <button href="" type="submit" class="btn btn-primary btn-form display-4">SEND FORM</button>
+                             <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
                         </span>
                     </form>
+		    <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
+		     <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
             </div>
         </div>
     </div>
