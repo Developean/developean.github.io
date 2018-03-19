@@ -23,8 +23,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "index.html?launcher=true",
+  "start_url": "https://developean.com/index.html?launcher=true",
   "display": "standalone",
   "theme_color": "#444444",
-   "background_color": "#2196F3"
+   "background_color": "#c0c0c0"
 }
