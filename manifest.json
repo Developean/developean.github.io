@@ -3,22 +3,22 @@
   "name": "Developean.com",
   "icons": [
     {
-      "src": "assets/images/logo_small.png",
+      "src": "https://developean.com/assets/images/logo_small.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "assets/images/logo.png",
+      "src": "https://developean.com/assets/images/logo.png",
       "type": "image/png",
       "sizes": "96x96"
     },
     {
-      "src": "assets/images/logo_medium.png",
+      "src": "https://developean.com/assets/images/logo_medium.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "assets/images/logo_large.png",
+      "src": "https://developean.com/assets/images/logo_large.png",
       "type": "image/png",
       "sizes": "512x512"
     }
