@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="en_US">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,11 +8,10 @@
   
   <title>Website design service provider in Vadodara - Developean</title>
   <meta name="keywords" content="Website Design Vadodara,WordPress Website Vadodara,Bulk SMS Vadodara,Search engine optimization (SEO) Vadodara,Custom Software Application Vadodara,Digital Marketing Agency Vadodara,Google Adwords Agency Vadodara,Social Media Marketing Vadodara,Static Web Design Vadodara,Content Writing Service Provider Vadodara,Logo Design Vadodara,Brochure Design Vadodara,Mobile Application Development Vadodara,Web Hosting Vadodara,Domain Registration company Vadodara"/>
-  <meta name="description" content="Looking for the website design service provider in Vadodara? Contact us to grow your online business with our 100% responsive, high performance, high quality and low-cost website design services in Vadodara.
-"/>
+  <meta name="description" content="Looking for the website design service provider in Vadodara? Contact us to grow your online business with our 100% responsive, high performance, high quality and low-cost website design services in Vadodara."/>
   
   <meta name="geo.placename" content="Vadodara" />
-  <meta name="geo.position" content="23.024887;72.524309" /><meta name="geo.region" content="IN" />
+  <meta name="geo.position" content="22.307159;73.181219" /><meta name="geo.region" content="IN" />
   
   <link rel="canonical" href="https://developean.com" />
   <link rel="publisher" href="https://plus.google.com/+developean"/>
@@ -20,8 +19,7 @@
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Website design service provider in Vadodara - Developean" />
-  <meta property="og:description" content="Developean is a leading website design IT company in Vadodara provide website design, website development, SEO services, digital marketing, social media Marketing, WordPress website design, static and low cost website design, content writing services in Vadodara and other Cities.Looking for the website design service provider in Vadodara? Contact us to grow your online business with our 100% responsive, high performance, high quality and low-cost website design services in Vadodara.
-" />
+  <meta property="og:description" content="Looking for the website design service provider in Vadodara? Contact us to grow your online business with our 100% responsive, high performance, high quality and low-cost website design services in Vadodara." />
   <meta property="og:url" content="https://developean.com" />
   <meta property="og:site_name" content="Developean Software Solution" />
   <meta property="og:image" content="assets/images/mbr-1-1620x1080.jpg" />
@@ -757,6 +755,7 @@ navigator.serviceWorker.register('/service-worker.js', {
                     <br><a href="/services" class="text-white">Services</a>
                     <br><a href="/about" class="text-white">About us</a>
                     <br><a href="/contact" class="text-white">Contact us</a>
+					<br><a href="/cities" class="text-white">City index</a>
                 </p>
             </div>
             <div class="col-md-4 col-sm-8">
@@ -832,13 +831,16 @@ Developean is a leading and globally accepted IT solution provider and currently
             <div class="media-container-row mbr-white">
                 <div class="col-sm-12 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2013-2018 <a href="https://developean.com" target="_blank">Developean Software Solution</a> - All Rights Reserved. Vadodara website design IT company and digital marketing agency.</p>
+                        © Copyright 2013-<span id="currentYear"></span> <a href="https://developean.com" target="_blank">Developean Software Solution</a> - All Rights Reserved. Vadodara website design IT company and digital marketing agency.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
+<script type="text/javascript">
+         var dt = new Date();
+         document.getElementById("currentYear").innerHTML =  dt.getFullYear() +""; 
+      </script>
 
   <script src="../assets/web/assets/jquery/jquery.min.js"></script>
   <script src="../assets/popper/popper.min.js"></script>

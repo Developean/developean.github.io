@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="en_US">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
 "/>
   
   <meta name="geo.placename" content="Rajkot" />
-  <meta name="geo.position" content="23.024887;72.524309" /><meta name="geo.region" content="IN" />
+  <meta name="geo.position" content="22.303894;70.802160" /><meta name="geo.region" content="IN" />
   
   <link rel="canonical" href="https://developean.com" />
   <link rel="publisher" href="https://plus.google.com/+developean"/>
@@ -757,6 +757,7 @@ navigator.serviceWorker.register('/service-worker.js', {
                     <br><a href="/services" class="text-white">Services</a>
                     <br><a href="/about" class="text-white">About us</a>
                     <br><a href="/contact" class="text-white">Contact us</a>
+					<br><a href="/cities" class="text-white">City index</a>
                 </p>
             </div>
             <div class="col-md-4 col-sm-8">
@@ -832,13 +833,16 @@ Developean is a leading and globally accepted IT solution provider and currently
             <div class="media-container-row mbr-white">
                 <div class="col-sm-12 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2013-2018 <a href="https://developean.com" target="_blank">Developean Software Solution</a> - All Rights Reserved. Rajkot website design IT company and digital marketing agency.</p>
+                        © Copyright 2013-<span id="currentYear"></span> <a href="https://developean.com" target="_blank">Developean Software Solution</a> - All Rights Reserved. Rajkot website design IT company and digital marketing agency.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
+<script type="text/javascript">
+         var dt = new Date();
+         document.getElementById("currentYear").innerHTML =  dt.getFullYear() +""; 
+      </script>
 
   <script src="../assets/web/assets/jquery/jquery.min.js"></script>
   <script src="../assets/popper/popper.min.js"></script>
