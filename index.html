@@ -1049,6 +1049,14 @@ New Technologies.</p></div></div></div></div></div><div class="carousel-item sli
                             </div>
                         </div>
                     </div>
+                </div><div class="carousel-item ">
+                    <div class="media-container-row">
+                        <div class="col-md-12">
+                            <div class="wrap-img ">
+                                <img src="assets/images/gruner-bw-1-218x100.png" class="img-responsive clients-img" alt="Gruner Products - Natural Green Tea, Coffee." title="Gruner Products - Natural Green Tea, Coffee.">
+                            </div>
+                        </div>
+                    </div>
                 </div></div>
             <div class="carousel-controls">
                 <a data-app-prevent-settings="" class="carousel-control carousel-control-prev" role="button" data-slide="prev">
@@ -1280,7 +1288,7 @@ New Technologies.</p></div></div></div></div></div><div class="carousel-item sli
                 <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">
                     CONTACT US</h2>
                 <h3 class="mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style display-5">
-                    Drop a line for us.
+                    Give us a chance to help you to grow your business.
                 </h3>
             </div>
         </div>
@@ -1372,6 +1380,7 @@ New Technologies.</p></div></div></div></div></div><div class="carousel-item sli
                     <br><a href="/services" class="text-white">Services</a>
                     <br><a href="/about" class="text-white">About us</a>
                     <br><a href="/contact" class="text-white">Contact us</a>
+					<br><a href="/cities" class="text-white">City index</a>
                 </p>
             </div>
             <div class="col-md-4 col-sm-8">
@@ -1447,14 +1456,18 @@ Developean is a leading and globally accepted IT solution provider and currently
             <div class="media-container-row mbr-white">
                 <div class="col-sm-12 copyright">
                     <p class="mbr-text mbr-fonts-style display-7">
-                        © Copyright 2013-2018 <a href="https://developean.com" target="_blank">Developean Software Solution</a> - All Rights Reserved. Ahmedabad website design IT company and digital marketing agency.</p>
+                        © Copyright 2013-<span id="currentYear"></span> <a href="https://developean.com" target="_blank">Developean Software Solution</a> - All Rights Reserved. Ahmedabad website design IT company and digital marketing agency.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-
+<script type="text/javascript">
+         var dt = new Date();
+         document.getElementById("currentYear").innerHTML =  dt.getFullYear() +""; 
+      </script>
+      
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
